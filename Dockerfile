@@ -5,7 +5,7 @@ WORKDIR /test
 EXPOSE 5000
 # RUN pip install Flask
 # RUN pip install Flask-SQLAlchemy
-RUN apt-get update
-RUN sudo apt-get upgrade
+# RUN apt-get update
+# RUN sudo apt-get upgrade
 CMD ["python", "main.py"]
 
