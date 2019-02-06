@@ -1,4 +1,4 @@
-# from Flask import Flask,render_template, redirect, url_for,request, jsonify, abort,request
+from Flask import Flask,render_template, redirect, url_for,request, jsonify, abort,request
 from Flask_Sqlalchemy import SQLAlchemy
 from form import StudentForm
 
