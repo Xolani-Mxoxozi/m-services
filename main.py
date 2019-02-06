@@ -1,5 +1,5 @@
-from flask import Flask,render_template, redirect, url_for,request, jsonify, abort,request
-from flask_sqlalchemy import SQLAlchemy
+from Flask import Flask,render_template, redirect, url_for,request, jsonify, abort,request
+from Flask_Sqlalchemy import SQLAlchemy
 from form import StudentForm
 
 app = Flask(__name__)
