@@ -4,7 +4,7 @@
 # WORKDIR /test
 # EXPOSE 5000
 # RUN pip install Flask
-sudo apt-get install flask flask-wtf flask-babel markdown flup
+# sudo apt-get install flask flask-wtf flask-babel markdown flup
 # RUN pip install Flask-SQLAlchemy
 # RUN apt-get update
 # RUN sudo apt-get upgrade
